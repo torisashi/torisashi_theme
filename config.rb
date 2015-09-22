@@ -105,6 +105,6 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote = 'git@github-torisashi:torisashi/torisashi.github.io.git'
-  deploy.branch = 'gh-pages'
+  deploy.branch = 'master'
   deploy.user  = 'torisashi' # no default
 end
