@@ -9,17 +9,12 @@
   </head>
   <body>
     <div class="container">
-      <header class="global-header">
-        <a class="global-header__logo" href="/"><img src="/images/logo.jpg"></a>
-        <h2 class="global-header__title">トリサシ日記</h2>
-      </header>
+      <%= partial 'header' %>
       <div class="content" role="main">
         <%= yield %>
       </div>
     
     </div>
-    <footer class="global-footer">
-      <p class="global-footer__copy">torisashi.com</p>
-    </footer>
+    <%= partial "footer" %>
   </body>
 </html>
