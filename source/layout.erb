@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title>トリサシ日記<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <meta name="description" content="Web Developmentとか鳥刺しとか">
     <%= stylesheet_link_tag 'style' %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>

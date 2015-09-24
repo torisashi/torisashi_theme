@@ -145,12 +145,13 @@ li {
   border-bottom: none;
 }
 .content p {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 .post__time {
   font-size: 1.5rem;
   padding: 10px 0;
+  color: #bbb;
 }
 .post__title {
   font-size: 2.8rem;
@@ -159,7 +160,30 @@ li {
   padding: 0 0 20px;
 }
 .post__body {
-  margin: 20px 0 0;
+  margin: 45px 0 0;
+  color: #555;
+}
+.post__body a {
+  color: #555;
+  text-decoration: underline;
+}
+.post__body p {
+  margin: 0 0 30px;
+}
+.post__body h2 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 60px 0 30px;
+}
+.post__body pre {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  background: #242b33;
+  color: #fff;
+  padding: 20px;
+  margin: 0 0 30px;
+  max-width: 100%;
+  overflow-x: auto;
 }
 .other {
   margin: 80px 0 40px;
@@ -169,7 +193,7 @@ li {
   margin: 0 0 10px;
 }
 .global-footer {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   text-align: center;
   height: 136px;
   line-height: 136px;
