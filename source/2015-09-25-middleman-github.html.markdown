@@ -1,11 +1,11 @@
 ---
-title: Github Pagesでmiddleman-blogをホスティングする
+title: Github Pagesでmiddleman-blogをホストする
 layout: single-layout
-desc: ほげ
+desc: GithubでMiddlemanで作成したblogをホストしたときの手順
 ---
 
 Middlemanとmiddleman-blogでブログを始めるにあたって、
-Github Pagesでホスティングしてみようと思った。  
+Github Pagesでホストしてみようと思った。  
 
 Middlemanのインストールとmiddleman-blogのインストールについては省略。  
 
